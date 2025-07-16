@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <style>
     .iform{
@@ -32,53 +33,114 @@
         text-align: center;
     }
 </style>
-<header>
-    <div class="mynav">
-        <div class="logo" style="text-align:justify;"><b>Kelvin Kuria</b></div>
-        <div class="details">
-            <nav style="margin-right: 0px;">
-                <ul class="navlink">
-                    <li><a href="index.html" style="color: rgb(46, 14, 14); text-decoration: none;"><b>Home</b></a></li>
-                    <li><a href="about.html" style="color: rgb(46, 14, 14); text-decoration: none;"><b>About</b></a>
-                    </li>
-                    <li><a href="contact.html" style="color: rgb(46, 14, 14); text-decoration: none;"><b>Contact
-                                me</b></a></li>
-                </ul>
-            </nav>
-        </div>
+<header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="man (3).png" width="25px">
+            <span class="ml-3 text-xl text-white ">KELVIN KURIA</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="/index.html" class="mr-5 text-white hover:text-indigo-500">Home</a>
+            <a href="/about.html" class="mr-5 text-white hover:text-indigo-500">About</a>
+            <a href="/skills.html" class="mr-5 text-white hover:text-indigo-500">Skills</a>
+            <!-- <a class="mr-5 hover:text-gray-900">Fourth Link</a> -->
+        </nav>
     </div>
 </header>
-<body>
-    <h1>Contact me....</h1>
-    <p>Fill the form below and write a small text on the text area below</p> <hr>
-
-    <h1 style="text-align: center; background-color: black; color: white; margin-left: 500px; margin-right: 500px; padding: 20px;">CONTACT FORM</h1>
-    <div class="iform">
-    <form action=""> <br><br>
-        <label for="Name">Name</label><br>
-        <input type="text"> <br><br>
-        <label for="Number">Phone number</label><br>
-        <input type="number"><br><br>
-        <label for="Email">Email</label><br>
-        <input type="email"><br><br>
-        <label for="Message">Share your view</label><br><br>
-        <textarea name="" placeholder="Talk to me here" rows="14" cols="58"></textarea> <br><br>
-        <button>SEND</button>
-    </form>
+<body style="background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(0, 0, 68));">
+    <section class="text-gray-600 body-font relative">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact me <br><span>TODAY</span></h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-white">For whatever you may need to enquire about Kelvin</p>
     </div>
-    
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="name" class="leading-7 text-sm text-gray-100">Name</label>
+            <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:bg-gray-200">
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="email" class="leading-7 text-sm text-gray-100">Email</label>
+            <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out hover:bg-gray-200">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="message" class="leading-7 text-sm text-gray-100">Message</label>
+            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out hover:bg-gray-200"></textarea>
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <button class="flex mx-auto text-white bg-indigo-500 border-0 py-5 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg items-center">Send</button>
+        </div>
+        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+          <a class="text-indigo-500">kelvinmacharia442@email.com</a>
+          <p class="leading-normal my-5">Nairobi.
+            <br>Moi avenue road
+          </p>
+          <span class="inline-flex">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </body><br><hr><br>
 
-<div class="footers">
-    <footer> <br>
-        <p>HELLO, WISH TO REACH ME?</p>
-        <P><b>USE THE INFORMATION BELOW TO GET IN-TOUCH</b></P>
-        <ul style="list-style: none;">
-            <li><a href="Email">kelvinmacharia442@gmail.com</a></li>
-            <li><a href="Tell">+2547-99-011-954</a></li>
-            <li><a href="Git">kuria-k</a></li>
-            <li><a href="contact.html">Fill in the form here to also reach me</a></li>
-        </ul>
-    </footer>
-</div>
+<footer class="text-gray-600 body-font">
+    <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl text-white">Kelvin Kuria</span>
+            </a>
+            <p class="mt-2 text-sm text-gray-500">Port-folio</p>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="text-gray-600 hover:text-gray-800">About</a>
+                    </li>
+                    <li>
+                        <a href="skills.html" class="text-gray-600 hover:text-gray-800">Skills</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="text-gray-600 hover:text-gray-800">Contact</a>
+                    </li>
+                </nav>
+            </div>
+
+</footer>
 </html>

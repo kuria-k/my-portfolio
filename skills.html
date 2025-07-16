@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Skills</title>
 </head>
 <style>
     .skill {
@@ -36,95 +38,222 @@
         border-radius: 80px;
     }
 </style>
-<header>
-    <div class="mynav">
-        <div class="logo" style="text-align:justify;"><b>Kelvin Kuria</b></div>
-        <div class="details">
-            <nav style="margin-right: 0px;">
-                <ul class="navlink">
-                    <li><a href="index.html" style="color: rgb(46, 14, 14); text-decoration: none;"><b>Home</b></a></li>
-                    <li><a href="about.html" style="color: rgb(46, 14, 14); text-decoration: none;"><b>About</b></a>
-                    </li>
-                    <li><a href="contact.html" style="color: rgb(46, 14, 14); text-decoration: none;"><b>Contact
-                                me</b></a></li>
-                </ul>
-            </nav>
-        </div>
+<header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="man (3).png" width="25px">
+            <span class="ml-3 text-xl text-white ">KELVIN KURIA</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="/index.html" class="mr-5 text-white hover:text-indigo-500">Home</a>
+            <a href="/about.html" class="mr-5 text-white hover:text-indigo-500">About</a>
+            <a href="/contact.html" class="mr-5 text-white hover:text-indigo-500">Contact</a>
+
+            <!-- <a class="mr-5 hover:text-gray-900">Fourth Link</a> -->
+        </nav>
     </div>
 </header>
 
-<body style="background-color: rgb(255, 255, 255);">
-    <h1>Did you know i also bring skills on the table?</h1>
-    <h2>learn what i bring below..</h2>
-    <h1 class="skill">TECHNICAL SKILLS</h1> <br>
-
-    <div class="list">
-        <img src="coding.jpg">
-        <div class="par">
-            <p>
-            <ul><br>
-                <li>FRONT-END DEVELOPMENT <P>Succesfully completed the front end development course and i am noe well
-                        equipped with adequate skills to handle this area with technical professionality</P>
-                </li>
-                <li>UI/UX DESIGNING <p>Have interacted with softwares such as Canva and Figma which provide the best
-                        elements to help us in designing a mark-up and a prototype of the software we want to code.</p>
-                </li>
-                <li>HARDWARE COMPUTER MAINTAINANCE AND SUPPORT <p>Persued a course on the management of computer
-                        hardware components and i have been able to test my skills in real world instances </p>
-                </li>
-                <li> NETWORK ROUTING AND INITIAL CONFIGUARATION <p>Successfully completed a course in the basics of
-                        network routing from Cisco and also i have managed to practice some of my skills on the field
-                        and also learnt more from my field work</p>
-                </li>
-
-            </ul>
-            </p><br><br>
+<body style="background-image: linear-gradient(to right, rgb(56, 0, 0),rgb(0, 0, 68));">
+    <section class="text-gray-600 body-font;">
+    <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">TECHNICAL SKILLS</h1>
+                <div class="h-1 w-20 bg-transparent rounded"></div>
+            </div>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">~a reminder that behind every seamless app,
+                breathtaking interface, or elegant algorithm is a craft so intricate, it feels otherworldly to the
+                untrained eye..~</p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <div class="bg-transparent p-6 rounded-lg">
+                    <div class="relative group">
+                        <img class="h-50 rounded w-full object-cover object-center mb-6 bg-transparent"
+                            src="ux-design.png" alt="content">
+                        <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skill-1</h3>
+                        <h2 class="text-lg text-gray-200 font-medium title-font mb-4">UX/UI DESIGN</h2>
+                        <p
+                            class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            Have interacted with softwares such as Canva and Figma
+                            which provide the best
+                            elements to help us in designing a mark-up and a prototype of the software we want to code.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <div class="bg-transparent p-6 rounded-lg">
+                    <div class="relative group">
+                        <img class="h-50 rounded w-full object-cover object-center mb-6" src="dev.png" alt="content">
+                        <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skills-2</h3>
+                        <h2 class="text-lg text-gray-200 font-medium title-font mb-4">FRONT-END DEV</h2>
+                        <p
+                            class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            Succesfully completed the front end development course and
+                            i am noe well
+                            equipped with adequate skills to handle this area with technical professionality</p>
+                    </div>
+                </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <div class="bg-transparent p-6 rounded-lg">
+                    <div class="relative group">
+                        <img class="h-50 rounded w-full object-cover object-center mb-6" src="repair.png" alt="content">
+                        <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skills-3</h3>
+                        <h2 class="text-lg text-gray-200 font-medium title-font mb-4">HARDWARE SUPPORT & MAINTAINANCE
+                        </h2>
+                        <p
+                            class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            Persued a course on the management of computer
+                            hardware components and i have been able to test my skills in real world instances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+                <div class="bg-transparent p-6 rounded-lg">
+                    <div class="relative group">
+                        <img class="h-50 rounded w-full object-cover object-center mb-6" src="backbone.png"
+                            alt="content">
+                        <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skills-4</h3>
+                        <h2 class="text-lg text-gray-200 font-medium title-font mb-4">NETWORK ROUTING & CONFIGURATION
+                        </h2>
+                        <p
+                            class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            Successfully completed a course in the basics of
+                            network routing from Cisco and also i have managed to practice some of my skills on the
+                            field
+                            and also learnt more from my field work</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    </section>
+    <hr>
 
-    <h1 class="skill">OTHER SKILLS</h1>
-    <div class="list">
-        <div class="par">
-            <p>
-            <ul> <br>
-                <li> COMMUNICATION AND NEGOTIATIONS SKILLS <p>From my current work experience, i have been able to
-                        nature my communication skills to a great point of view and also my negotion skills with people
-                    </p>
-                </li>
-                <li> TEAM WORK <p>My current work space has allowed me to engage and work with teams in different areas
-                        which has majorly contributed to the success on the task at hand</p>
-                </li>
-                <li> LEADERSHIP <p>Been engaged in many leadership training and have lead a mates for two years in high
-                        school and also a team in different projects </p>
-                </li>
-                <li> SWIMMING <p>I am a true believer of a little leaisure in life and i choose to engage in swimming as
-                        a leaisure activity where it helps my mind relax and be productive in what i do</p>
-                </li>
-                <li> COOKING <p>Many under-rate this skill but i value it because it has helped me to engage with people
-                        and also network from time to time while attending food fests</p>
-                </li>
-
-            </ul>
-            </p><br><br><br><br>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">OTHER SKILLS</h1>
+                    <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">~Skills may fill a résumé, but soft skills
+                    shape the journey — in water, in kitchens, in boardrooms, and in every conversation we dare to
+                    lead..~</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-transparent p-6 rounded-lg">
+                        <div class="relative group">
+                            <img class="h-50 rounded w-full object-cover object-center mb-6" src="communication.png"
+                                alt="content">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skill-1</h3>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-4">COMMUNICATION & NEGOTIATION
+                            </h2>
+                            <p
+                                class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                From my current work experience, i have been able to
+                                nature my communication skills to a great point of view and also my negotion skills with
+                                people</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-transparent p-6 rounded-lg">
+                        <div class="relative group">
+                            <img class="h-50 rounded w-full object-cover object-center mb-6" src="collaboration.png"
+                                alt="content">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skills-2</h3>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-4">TEAM-WORK</h2>
+                            <p
+                                class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                My current work space has allowed me to engage and work with teams in different areas
+                                which has majorly contributed to the success on the task at hand</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-transparent p-6 rounded-lg">
+                        <div class="relative group">
+                            <img class="h-50 rounded w-full object-cover object-center mb-6" src="team-leader.png"
+                                alt="content">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skills-3</h3>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-4">LEADERSHIP</h2>
+                            <p
+                                class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                Been engaged in many leadership training and have lead a mates for two years in high
+                                school and also a team in different projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-transparent p-6 rounded-lg">
+                        <div class="relative group">
+                            <img class="h-50 rounded w-full object-cover object-center mb-6" src="swimming.png"
+                                alt="content">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skills-4</h3>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-4">SWIMMING</h2>
+                            <p
+                                class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                I am a true believer of a little leaisure in life and i choose to engage in swimming as
+                                a leaisure activity where it helps my mind relax and be productive in what i do</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-transparent p-6 rounded-lg">
+                        <div class="relative group">
+                            <img class="h-50 rounded w-full object-cover object-center mb-6" src="cooking.png"
+                                alt="content">
+                            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Skills-5</h3>
+                            <h2 class="text-lg text-gray-200 font-medium title-font mb-4">COOKING</h2>
+                            <p
+                                class="absolute inset-0 p-4 text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                Many under-rate this skill but i value it because it has helped me to engage with people
+                                and also network from time to time while attending food fests</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="swim.jpg" style="gap: 30px; margin-left: 0px;">
+    </section>
+
+
+</body>
+<hr>
+
+<footer class="text-gray-600 body-font">
+    <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl text-white">Kelvin Kuria</span>
+            </a>
+            <p class="mt-2 text-sm text-gray-500">Port-folio</p>
         </div>
-    </div>
-</body><br><hr><br>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="text-gray-600 hover:text-gray-800">About</a>
+                    </li>
+                    <li>
+                        <a href="skills.html" class="text-gray-600 hover:text-gray-800">Skills</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="text-gray-600 hover:text-gray-800">Contact</a>
+                    </li>
+                </nav>
+            </div>
 
-<div class="footers">
-    <footer> <br>
-        <p>HELLO, WISH TO REACH ME?</p>
-        <P><b>USE THE INFORMATION BELOW TO GET IN-TOUCH</b></P>
-        <ul style="list-style: none;">
-            <li><a href="Email">kelvinmacharia442@gmail.com</a></li>
-            <li><a href="Tell">+2547-99-011-954</a></li>
-            <li><a href="Git">kuria-k</a></li>
-            <li><a href="contact.html">Fill in the form here to also reach me</a></li>
-        </ul>
-    </footer>
-</div>
-
-
+</footer>
 </html>
